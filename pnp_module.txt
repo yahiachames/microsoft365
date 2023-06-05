@@ -1,0 +1,4 @@
+ Install-Module -Name "PnP.PowerShell"
+Register-PnPManagementShellAccess
+Get-Command -Module PnP.Powershell
+ Connect-PnPOnline -Url https://cdymodulecorp-admin.sharepoint.com -Interactive

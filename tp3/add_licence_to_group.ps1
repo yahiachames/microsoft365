@@ -1,0 +1,1 @@
+Add-AzureADGroupLicense -Id (Get-AzureADGroup -Filter "DisplayName eq 'License E5'").ObjectId -AddLicenses "qbrmodulecorp:Developer_E5"
